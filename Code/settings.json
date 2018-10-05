@@ -1,0 +1,15 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.colorTheme": "Solarized Dark",
+    "python.globalModuleInstallation": true,
+    "python.linting.pep8Enabled": true,
+    "python.pythonPath": "/usr/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "editor.codeLens": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+}

@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      creat: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/Code/User/settings.json: Code/settings.json
+    ~/.config/kitty/kitty.conf: kitty/kitty.conf
+    ~/.dotfiles: ''
+    ~/.vimrc:
+    ~/.zshrc:
+
+- shell:
+    [git update-submodules, Installing submodules]
