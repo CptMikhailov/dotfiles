@@ -1,6 +1,6 @@
 - defaults:
     link:
-      creat: true
+      create: true
       relink: true
 
 - clean: ['~']
@@ -13,4 +13,5 @@
     ~/.zshrc:
 
 - shell:
-    [git update-submodules, Installing submodules]
+    - git submodule sync --recursive
+    - git submodule update --init --recursive
